@@ -1,7 +1,7 @@
 import streamlit as st 
 from agent import Agent
 
-agent = Agent("")
+agent = Agent("key-openai-api")
 
 st.set_page_config('wide')
 st.title('Tourism intellAgent App')
